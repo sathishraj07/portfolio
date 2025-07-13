@@ -1,0 +1,30 @@
+.Summary{
+      margin: 5rem 10rem;    
+    h5{
+ text-transform: capitalize;
+ letter-spacing: .2rem;
+ color: orange;
+ font-size: 2rem;
+ padding: 1rem 0;
+    }
+    p{
+        font-size: 1.1rem;
+        word-spacing: .5rem;
+        margin: 1rem 0;
+        padding: 1rem 0;
+    }
+    .Sub-Summary{
+          border-left: 2px solid orange;
+        padding-left: .8rem;
+      h5{
+        font-size: 1.3rem;
+      }
+        &_list{
+  margin: 1rem 0;
+  li{
+    padding: .8rem 0;
+    font-size: 1.7rem;
+  }
+        }
+    }
+}

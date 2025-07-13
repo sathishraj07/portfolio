@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.mainComponent{
+  background: linear-gradient(to right, #1e1e1e, #5e4437, #ec6c2e);
+  color: white;
+  width: 100%;
+  background-size: cover;
+  height: 100%;
+}
+.mainNavbar{
+ position: fixed;
+  bottom: 50px;
+  width: 100%;
+  z-index: 1000;
+}
+

@@ -1,0 +1,41 @@
+.Experience{
+          margin: 5rem 10rem;    
+    h5{
+ text-transform: capitalize;
+ letter-spacing: .2rem;
+ color: orange;
+ font-size: 2rem;
+ padding: 1rem 0;
+    }
+    .EX_Timeline{
+        .ant-timeline-item {
+            .ant-timeline-item-tail{
+border-inline-start:3px solid #454545
+            }
+            .ant-timeline-item-head{
+  background-color: orange;
+  border-color: orange;
+        }
+        .ant-timeline-item-content{
+            color: white;
+            margin: 1rem 1.7rem;
+            font-size: 1.3rem;
+            .timeline_hdr{
+                
+                    display: flex;
+                  column-gap: 20% ;
+           
+            }
+             .timeline_sub{
+                font-size: .9rem;
+                color: orange;
+            }
+            .timeline_Content{
+                max-width: 500px;
+                font-size: .9rem;
+                margin: 1rem 0;
+            }
+        }
+        }
+    }
+}

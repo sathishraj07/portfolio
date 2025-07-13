@@ -1,0 +1,47 @@
+.Skills {
+    margin: 0 10rem;
+
+    h5 {
+        font-size: 2.5rem;
+        color: orange;
+        letter-spacing: .3rem;
+    }
+
+    &_list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        
+
+        div {
+            margin-top: 3rem;
+
+            h3 {
+                font-size: 1.2rem;
+            }
+
+            .Frontend {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                margin-bottom: 0;
+                padding-bottom: 1rem;
+
+                li {
+                    margin: .5rem 0;
+                    font-size: 1.1rem;
+
+                    img {
+                        width: 20px;
+                        height: 20px;
+                        margin-left: 15px;
+                    }
+                }
+
+                ::marker {
+                    color: #ff8900;
+                    font-size: 1.6rem;
+                }
+            }
+        }
+    }
+
+}
