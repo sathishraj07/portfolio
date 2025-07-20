@@ -36,7 +36,7 @@ const Skills = () => {
                             </ul>
                         </div>
                         <div>
-                            <h3>Back-end Technology <code>(Basic Knowledge)</code></h3>
+                            <h3>Back-end Technology <code className="backendCode">(Basic Knowledge)</code></h3>
                             <ul className='Frontend'>
                                 {itm.Backend.map(ele => (
                                     <li>{ele.label} <img src={ele.img} /></li>

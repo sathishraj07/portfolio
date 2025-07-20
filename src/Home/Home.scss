@@ -18,9 +18,9 @@
   width: 12px;
   height: 12px;
   margin:  0 .8rem;
-  background-color: #00d1ff;
+  background-color: #00ff1f;
   border-radius: 50%;
-  box-shadow: 0 0 10px rgba(0, 209, 255, 0.7);
+  box-shadow: 0 0 10px #00ff1f;
   animation: bulb-blink 2.5s infinite ease-in-out;
     }
        
@@ -28,11 +28,11 @@
   @keyframes bulb-blink {
     0%, 100% {
       opacity: 1;
-      box-shadow: 0 0 10px rgba(0, 209, 255, 0.7);
+      box-shadow: 0 0 20px rgba(0, 209, 255, 0.7);
     }
     50% {
       opacity: 0.3;
-      box-shadow: 0 0 3px rgba(0, 209, 255, 0.2);
+      box-shadow: 0 0 8px rgba(0, 209, 255, 0.2);
     }
   }
     .CV_btn {

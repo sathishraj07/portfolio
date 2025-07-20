@@ -21,5 +21,5 @@ const Navbar = (props) => {
 export default Navbar
 
 const Navbarlist = [
-    "Home","Summary","Experience" , "Skills","Links"
+    "Home","Summary","Experience" ,"Project", "Skills","Links"
 ]

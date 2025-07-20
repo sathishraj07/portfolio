@@ -8,6 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Skills from './Skills/Skills'
 import Link from './Link/Link'
 import Footer from './Footer/Footer'
+import Project from './Project/Project'
 
 function App() {
 const [slectedbar , setselectedbar] = useState("Home")
@@ -17,6 +18,7 @@ const [slectedbar , setselectedbar] = useState("Home")
         <Home id ="Home" />
         <Summary id= "Summary"/>
         <Experience/>
+        <Project/>
         <Skills/>
         <Link/>
         <Footer/>
